@@ -159,6 +159,4 @@ while running:
    #wait for sec after bullet hit the target . wait after collison 
    if flag:
       time.sleep(0.9)
-   
-   #time.sleep(0.5)
    #pygame.display.update()
