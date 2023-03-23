@@ -148,8 +148,7 @@ while running:
    new_rect = rotated_image.get_rect(center = image.get_rect(center = (cannon_x, cannon_y)).center)
    screen.blit(rotated_image,new_rect)
    print(bullet_x,bullet_y)
-   #screen.blit(ball_img,(distance*math.cos(angle),distance*math.sin(angle)))
-   #time.sleep(0.01111111111111)
+   
    #show the bulllet on screen 
    screen.blit(ball_img,(bullet_x,bullet_y))
    #show target on screen
