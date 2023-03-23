@@ -109,6 +109,8 @@ while running:
      bullet_y=bullet_y-5*math.sin(angle)
    #append the new bullets coordinate to trail list intialize earlier
      trail.append((bullet_x,bullet_y))
+   #show the bullet on screen a the given coordinates.
+     screen.blit(ball_img,(bullet_x,bullet_y))
      print(trail)
    #calculate new distance bullet get after changing ther coordinate 
      dist=math.sqrt(bullet_x**2+bullet_y**2)
@@ -149,8 +151,8 @@ while running:
    screen.blit(rotated_image,new_rect)
    print(bullet_x,bullet_y)
    
-   #show the bulllet on screen 
-   screen.blit(ball_img,(bullet_x,bullet_y))
+  
+   #screen.blit(ball_img,(bullet_x,bullet_y))
    #show target on screen
    screen.blit(ballon_img,ball_xy[0])
    #update the graphics of screen after each iteration 
