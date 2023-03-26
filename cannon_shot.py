@@ -92,6 +92,8 @@ while running:
             #angle=math.atan(traingle_y/traingle_x)
    #use tan inverse get the anlge b/w them 
    angle=math.atan2(traingle_y,traingle_x)
+   #to get more accurate shoting +- errors.
+   angle=anlge-2/100
    #convert angle in degress
    degrees=math.degrees(angle)
    #use intialize fornt to show the anlge on screen 
