@@ -16,3 +16,8 @@ maney games to play
  it also uses cillison detection foumula and you can move your spaceship in x plane and shoot the target contioniously 
  and your score will upgraded 
  if enemy touches you you will die kill them before they get closer . user upper arrow key to shot bullet
+
+
+#rando motion
+it uses certian motion concept and move in plane and anhilate when collide with the boundary . then randomly appear a certain 
+coordinate it's fun to see ..
